@@ -1,0 +1,41 @@
+Project Proposal
+
+1. What goal will your website be designed to achieve?
+
+My project will be to create an app similar to goodreads where a user can create an account and store information about the books they've read/are reading. 
+
+2. What kind of users will visit your site? In other words, what is the demographic of
+your users?
+
+This will be a site used by people who like to read and share what they are reading with others and also receive recommendations about what to read next. 
+
+3. What data do you plan on using? You may have not picked your actual API yet,
+which is fine, just outline what kind of data you would like it to contain.
+
+I would like to use data on books including author, title, cover of the book, isbn number, etc. 
+
+4. In brief, outline your approach to creating your project (knowing that you may not
+know everything in advance and that these details might change later). Answer questions like the ones below, but feel free to add more information:
+a. What does your database schema look like?
+
+There will be a table to store user data, a table for bookshelves, a table for recommended books, a table for friends
+
+b. What kinds of issues might you run into with your API?
+
+Not being able to make the specific API requests that I want to make
+
+c. Is there any sensitive information you need to secure?
+
+I will need to securly store the users login password
+
+d. What functionality will your app include?
+
+Ability to friend other users, create shelves containing the books the user has read/are reading, rate the books they've read and add read dates, recommend a book to a friend, receive notifications from a friend who has recommended a book, add notes to books, etc.
+
+e. What will the user flow look like?
+
+The user will register and login, then select their favorite genres of books. Once the user has selected their favorite genres of books, they will see a list of recommended books to read and a search bar to look up books. Then they will search for books by title that they have read and add them to a shelf if they have read them. The user will be able to name the shelf and designate the genre of the book they've read, give it a rating, add read dates, and add notes to the book if they want. The user will also be able to search other users by their username and send a friend request. If the other user accepts the friend request, then users will be able to recommend books to each other. 
+
+f. What features make your site more than CRUD? Do you have any stretch goals?
+
+Receiving a list of recommended books to read based on genre is a bit beyond CRUD I believe. Also, being able to send book recommendations to friends is a little beyond CRUD as well I think. 
